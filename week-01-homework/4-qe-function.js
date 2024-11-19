@@ -10,10 +10,11 @@ console.log(addNumber(100,200));
 // 문제 2: 이름을 매개변수로 받아서 "안녕하세요, [이름]님!"을 출력하는 함수를 작성하세요.
 console.clear();
 function greet(name){
-    console.log('안녕하세요, ${name}님!')
+    console.log(`안녕하세요, ${name}님!`)
 }
 greet('홍길동');
 // 문제 3: 세 개의 숫자 중 가장 큰 수를 반환하는 함수를 작성하세요.
+// mathmax사용가능
 function returnMaxValue(number1, number2 , number3) {
     let max = number1;
     if (number2 > max) {
@@ -36,7 +37,7 @@ function isEven(n){
         return('짝수');
     };
 }
-console.clear();
+//console.clear();
 console.log(isEven(35));
 
 // 문제 5: 배열을 매개변수로 받아 모든 요소를 출력하는 함수를 작성하세요.
@@ -46,5 +47,5 @@ function print(array) {
     }
     
 }
-console.clear();
+//console.clear();
 print(['강아지', '고양이', '알파카']);

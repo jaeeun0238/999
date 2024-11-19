@@ -39,8 +39,8 @@ console.log(food[0]);
 // 문제 5: 사람의 정보를 객체로 만들어 이름과 나이를 저장하고 출력하세요.
 
 const person = {
-    name: '유재은',
-    age: 24
+    name: '홍길동',
+    age: 50
 };
-console.log(name);
-console.log(age);
+console.log(person.name);
+console.log(person.age);

@@ -29,7 +29,7 @@ let fruits = ['사과', '바나나', '포도'];
 // console.log(fruits[0]);
 // console.log(fruits[1]);
 // console.log(fruits[2]);
-for(let i = 1; i < fruits.length; i++){
+for(let i = 0; i < fruits.length; i++){
     console.log(fruits[i]);
 
 }
@@ -42,7 +42,9 @@ for(let i = 1; i < fruits.length; i++){
 // console.log(reverseArr);
 
 let count = 5;
-while (count<0) {
+while (count >= 1) {
     console.log(count);
     count--;
 }
+
+// == ===의차이
