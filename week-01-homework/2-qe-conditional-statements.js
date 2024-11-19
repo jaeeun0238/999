@@ -17,13 +17,13 @@ else{
 const score = 70;
 
 if (score >= 90) {
-    console.log('예시 2: A 학점입니다.');
+    console.log('A 학점입니다.');
   } else if (score >= 80) {
-    console.log('예시 2: B 학점입니다.');
+    console.log('B 학점입니다.');
   } else if (score >= 70) {
-    console.log('예시 2: C 학점입니다.');
+    console.log('C 학점입니다.');
   } else {
-    console.log('예시 2: D 학점입니다.');
+    console.log('D 학점입니다.');
   }
 
 // 문제 3: 나이를 입력받아 성인인지 미성년자인지 출력하세요.
