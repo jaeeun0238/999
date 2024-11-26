@@ -26,3 +26,5 @@ const result2 = myFind(objArray, function (obj) {
 //console.log(result2);
 
 console.log(result1 === result2); // true
+// result1 = { name: "banana", price: 200 }
+// result2 = { name: "banana", price: 200 } 고로 true

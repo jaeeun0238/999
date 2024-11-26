@@ -22,4 +22,4 @@ const myMapResult = myMap(objArray, function (obj) {
 
 console.log(mapResult);
 console.log(myMapResult);
-console.log(mapResult == myMapResult);
+console.log(mapResult === myMapResult);

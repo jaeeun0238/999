@@ -22,3 +22,4 @@ const result2 = myFindIndex(objArray, function (obj) {
   return obj.name === "banana";
 });
 console.log(result1 === result2); // true
+// result1 = 1 result2= 1 고로 true
