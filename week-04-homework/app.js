@@ -1,3 +1,4 @@
+// esm 모듈 방식
 import express from 'express';
 import playersRouter from './routes/playersRouter.js';
 
