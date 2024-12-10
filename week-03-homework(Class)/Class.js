@@ -22,6 +22,15 @@ class GameCharacter {
     const randomHeal = Math.floor(Math.random() * (20 - 10 + 1) + 10);
     console.log(`${this.name}의 체력이${randomHeal}만큼 회복되었습니다.`);
   }
+  levelUp() {
+    const additionalStat = 10;
+    const randomNumber = Math.random();
+    if (randomNumber < 0.5) {
+      this.hp += additionalStat;
+    } else {
+      this.damage += additionalStat;
+    }
+  }
 }
 
 const myCharacter = new GameCharacter('뱀', 1, 100, 5);
