@@ -1,6 +1,6 @@
 // esm 모듈 방식
 import express from 'express';
-import playersRouter from './routes/playersRouter.js';
+import playersRouter from '../routes/player.route.js';
 
 const app = express();
 const PORT = 3000;

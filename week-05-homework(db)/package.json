@@ -1,5 +1,5 @@
 {
-  "name": "week-04-homework",
+  "name": "week-05-homework(db)",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -13,6 +13,7 @@
   "dependencies": {
     "@prisma/client": "^6.0.1",
     "express": "^4.21.2",
+    "nodemon": "^3.1.9",
     "prisma": "^6.0.1"
   }
 }

@@ -10,13 +10,13 @@ let players = [
 // 선수 불러오기 - Read
 // 불러오니까 메서드 -Get
 // 불러오니까 Url - /players
-playersRouter.get('/api/players', (req, res) => {
+router.get('/api/players', (req, res) => {
   res.json(players);
 });
 // 선수 생성하기 -Create
 // 생성하니까 메서드 - Post
 // 생성하니까 Url - /players
-playerRouter.post('/api/players', (req, res) => {
+router.post('/api/players', (req, res) => {
   // 데이터 받기
   // 보내는사람 req를 쓰자
   // req.body
@@ -28,7 +28,7 @@ playerRouter.post('/api/players', (req, res) => {
 });
 
 // 특정 선수 데이터 삭제
-playersRouter.delete('/api/players/:name', (req, res) => {
+router.delete('/api/players/:name', (req, res) => {
   // filter 사용 - 그 선수가 아닌 사람들만 찾아내기
   const { name } = req.params;
   const _players = players.filter((player) => {
@@ -38,7 +38,7 @@ playersRouter.delete('/api/players/:name', (req, res) => {
   res.json(_players);
 });
 
-playersRouter.patch('/api/players/:name', (req, res) => {
+router.patch('/api/players/:name', (req, res) => {
   const { name } = req.params;
   const { grade, speed } = req.body;
   // 이름으로 선수를 검색하고 확인

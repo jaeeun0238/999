@@ -1,6 +1,6 @@
-const players = [
+// const players = [
 
-];
+// ];
 
-const getPlayers = (req,res)=> {
-}
+// const getPlayers = (req,res)=> {
+// }
