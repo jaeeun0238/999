@@ -1,4 +1,5 @@
-import express from 'express'; // Express 프레임워크 
+//express 도구를 가져온다. express 는 서버를 만들기 위해 도와주는 도구입니다.
+import express from 'express'; 
 import { HTTP_STATUS } from '../constants/http-status.constant.js'; // HTTP 상태 코드 상수 
 import { MESSAGES } from '../constants/message.constant.js'; // 메시지 상수 
 import { createResumeValidator } from '../middlewares/validators/create-resume-validator.middleware.js'; // 이력서 생성 검증 미들웨어 
